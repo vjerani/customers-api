@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{72865F07-EE0E-4C71-9C8D-0614DBBDCCCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{D7A029B5-FBC3-42BD-A279-F0345A546441}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{1DE29A1C-6351-4B7B-B17E-79AB2F89D531}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72865F07-EE0E-4C71-9C8D-0614DBBDCCCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72865F07-EE0E-4C71-9C8D-0614DBBDCCCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72865F07-EE0E-4C71-9C8D-0614DBBDCCCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72865F07-EE0E-4C71-9C8D-0614DBBDCCCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7A029B5-FBC3-42BD-A279-F0345A546441}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7A029B5-FBC3-42BD-A279-F0345A546441}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7A029B5-FBC3-42BD-A279-F0345A546441}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7A029B5-FBC3-42BD-A279-F0345A546441}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DE29A1C-6351-4B7B-B17E-79AB2F89D531}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DE29A1C-6351-4B7B-B17E-79AB2F89D531}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DE29A1C-6351-4B7B-B17E-79AB2F89D531}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DE29A1C-6351-4B7B-B17E-79AB2F89D531}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77433131-A603-42BE-B484-780FD09BB15B}
+	EndGlobalSection
+EndGlobal
