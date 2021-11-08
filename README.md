@@ -1,5 +1,3 @@
-[![Build Status](https://github.com/dotnet-architecture/eShopOnWeb/workflows/eShopOnWeb%20Build%20and%20Test/badge.svg)](https://github.com/dotnet-architecture/eShopOnWeb/actions)
-
 # Web API technical test 
 
 This project demonstrates Clear Architecture REST api. Solution is made of three projects:
@@ -14,10 +12,11 @@ This project demonstrates Clear Architecture REST api. Solution is made of three
 
 
 ## Running the sample
+For this project, I am using Microsoft Visual Studio Enterprise 2019
 
 After cloning or downloading the sample you should be able to run it using an SQLLite database immediately.
 
-You can also run the samples in Docker.
+You can also run the WebAPi project in Docker.
 
 ### Task 1 
 Write a RESTful API for creating, updating and retrieving customer information. A 
