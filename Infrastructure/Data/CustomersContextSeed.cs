@@ -19,7 +19,7 @@ namespace Infrastructure.Data
             var retryForAvailability = retry;
             try
             {
-                customersContext.Database.Migrate();
+                //customersContext.Database.Migrate();
 
                 if (!await customersContext.Customers.AnyAsync())
                 {
