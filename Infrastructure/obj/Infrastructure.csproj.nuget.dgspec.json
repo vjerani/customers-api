@@ -4,14 +4,14 @@
     "D:\\Visual Studio Projects\\posao\\Global blue\\Global Blue\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\Visual Studio Projects\\posao\\Global blue\\Global Blue\\Infrastructure\\Infrastructure.csproj": {
+    "D:\\Visual Studio Projects\\posao\\Global blue\\Global Blue\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual Studio Projects\\posao\\Global blue\\Global Blue\\Infrastructure\\Infrastructure.csproj",
-        "projectName": "Infrastructure",
-        "projectPath": "D:\\Visual Studio Projects\\posao\\Global blue\\Global Blue\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "D:\\Visual Studio Projects\\posao\\Global blue\\Global Blue\\Core\\Core.csproj",
+        "projectName": "Core",
+        "projectPath": "D:\\Visual Studio Projects\\posao\\Global blue\\Global Blue\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\vjera\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual Studio Projects\\posao\\Global blue\\Global Blue\\Infrastructure\\obj\\",
+        "outputPath": "D:\\Visual Studio Projects\\posao\\Global blue\\Global Blue\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -44,6 +44,95 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Ardalis.GuardClauses": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.208\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Visual Studio Projects\\posao\\Global blue\\Global Blue\\Infrastructure\\Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Visual Studio Projects\\posao\\Global blue\\Global Blue\\Infrastructure\\Infrastructure.csproj",
+        "projectName": "Infrastructure",
+        "projectPath": "D:\\Visual Studio Projects\\posao\\Global blue\\Global Blue\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\vjera\\.nuget\\packages\\",
+        "outputPath": "D:\\Visual Studio Projects\\posao\\Global blue\\Global Blue\\Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\vjera\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Visual Studio Projects\\posao\\Global blue\\Global Blue\\Core\\Core.csproj": {
+                "projectPath": "D:\\Visual Studio Projects\\posao\\Global blue\\Global Blue\\Core\\Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.11, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

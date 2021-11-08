@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Gayj9OXilKhUku1SAbKJVcBQdgIIl4vXgHL66f/jfb39+5m8bcNaVcRGNW27NzT9Cspny4pr6YjWVORRDxLYWA==",
+  "dgSpecHash": "7oKi71c3D8I89XoKS2NfGa64JcgfQRjnhnFOZARtzV4FSs+YXLOefU82qNVfmHCLTBWI/A1IEtMa+a9StbWLGA==",
   "success": true,
   "projectFilePath": "D:\\Visual Studio Projects\\posao\\Global blue\\Global Blue\\Core\\Core.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\vjera\\.nuget\\packages\\ardalis.guardclauses\\3.3.0\\ardalis.guardclauses.3.3.0.nupkg.sha512",
+    "C:\\Users\\vjera\\.nuget\\packages\\jetbrains.annotations\\2021.2.0\\jetbrains.annotations.2021.2.0.nupkg.sha512"
+  ],
   "logs": []
 }

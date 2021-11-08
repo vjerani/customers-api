@@ -30,13 +30,6 @@ bld/
 [Oo]bj/
 [Ll]og/
 [Ll]ogs/
-/**/bin/**/*
-/./**/bin/**/*
-./**/bin/**/*
-**/bin/**/*
-*/bin/**/*
-bin/**/*
-/**/bin/* #and the others with just * at the end too
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
