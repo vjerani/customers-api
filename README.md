@@ -36,7 +36,7 @@ engine);
 3. The API should be unit tested; 
 4. The API should be well structured.
 
-#### Task 2 
+### Task 2 
 This task involves building and running your application. 
  
 1. Write a script that can be used to build your API and package it in a container; 
@@ -50,13 +50,19 @@ The final part of this task should illustrate your API running locally with its 
 should be explicit enough for anyone else to follow the instructions and see the 
 application working.
 
-##### Task 3
+### Task 3
 Finally, consider how the API could: 
 1. Be deployed to a live environment; 
 2. Handle a large volume of requests, including concurrent creation and update 
 operations; 
 3. Continue operating in the event of problems reading and writing from the database; 
 4. Ensure the security of the user information. 
+
+## Testing projects
+The solution includes three testing projects. The projects are:
+- UnitTest: contains functionality checks for the Customer entity and the domain model
+- IntegrationTest: contains tests to check the functionality of database access through Repository and CustomersContext
+- FunctionalTests: contains functionality checks for the API
 
 ## Running the sample using Docker
 
